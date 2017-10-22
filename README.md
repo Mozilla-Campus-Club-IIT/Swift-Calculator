@@ -1,8 +1,8 @@
 # Swift-Calculator
 ## Swift Project for Hacktoberfest 2017 
 ```markdown
-Disclaimer ~ This project is a beginner level project initiated give out a basic understanding about the SWIFT Language
-and to practice the best practices of IOS Development.
+Disclaimer ~ This project is a beginner level project initiated give out a basic understanding about
+the SWIFT Language and to practice the best practices of IOS Development.
 ```
 ## Expected Outcomes of the Project
 
