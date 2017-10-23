@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542CC38C1F9E9BD900AAB1B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542CC38B1F9E9BD900AAB1B4 /* AppDelegate.swift */; };
+		542CC38E1F9E9BD900AAB1B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542CC38D1F9E9BD900AAB1B4 /* ViewController.swift */; };
+		542CC3911F9E9BD900AAB1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542CC38F1F9E9BD900AAB1B4 /* Main.storyboard */; };
+		542CC3931F9E9BD900AAB1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542CC3921F9E9BD900AAB1B4 /* Assets.xcassets */; };
+		542CC3961F9E9BD900AAB1B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542CC3941F9E9BD900AAB1B4 /* LaunchScreen.storyboard */; };
+		542CC3A11F9E9BD900AAB1B4 /* Mozilla_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542CC3A01F9E9BD900AAB1B4 /* Mozilla_CalculatorTests.swift */; };
+		542CC3AC1F9E9BD900AAB1B4 /* Mozilla_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542CC3AB1F9E9BD900AAB1B4 /* Mozilla_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		542CC39D1F9E9BD900AAB1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542CC3801F9E9BD900AAB1B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542CC3871F9E9BD900AAB1B4;
+			remoteInfo = "Mozilla Calculator";
+		};
+		542CC3A81F9E9BD900AAB1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542CC3801F9E9BD900AAB1B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542CC3871F9E9BD900AAB1B4;
+			remoteInfo = "Mozilla Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		542CC3881F9E9BD900AAB1B4 /* Mozilla Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mozilla Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542CC38B1F9E9BD900AAB1B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		542CC38D1F9E9BD900AAB1B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		542CC3901F9E9BD900AAB1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		542CC3921F9E9BD900AAB1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		542CC3951F9E9BD900AAB1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		542CC3971F9E9BD900AAB1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542CC39C1F9E9BD900AAB1B4 /* Mozilla CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mozilla CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542CC3A01F9E9BD900AAB1B4 /* Mozilla_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mozilla_CalculatorTests.swift; sourceTree = "<group>"; };
+		542CC3A21F9E9BD900AAB1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542CC3A71F9E9BD900AAB1B4 /* Mozilla CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mozilla CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542CC3AB1F9E9BD900AAB1B4 /* Mozilla_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mozilla_CalculatorUITests.swift; sourceTree = "<group>"; };
+		542CC3AD1F9E9BD900AAB1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		542CC3851F9E9BD900AAB1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542CC3991F9E9BD900AAB1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542CC3A41F9E9BD900AAB1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		542CC37F1F9E9BD900AAB1B4 = {
+			isa = PBXGroup;
+			children = (
+				542CC38A1F9E9BD900AAB1B4 /* Mozilla Calculator */,
+				542CC39F1F9E9BD900AAB1B4 /* Mozilla CalculatorTests */,
+				542CC3AA1F9E9BD900AAB1B4 /* Mozilla CalculatorUITests */,
+				542CC3891F9E9BD900AAB1B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		542CC3891F9E9BD900AAB1B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				542CC3881F9E9BD900AAB1B4 /* Mozilla Calculator.app */,
+				542CC39C1F9E9BD900AAB1B4 /* Mozilla CalculatorTests.xctest */,
+				542CC3A71F9E9BD900AAB1B4 /* Mozilla CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		542CC38A1F9E9BD900AAB1B4 /* Mozilla Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				542CC38B1F9E9BD900AAB1B4 /* AppDelegate.swift */,
+				542CC38D1F9E9BD900AAB1B4 /* ViewController.swift */,
+				542CC38F1F9E9BD900AAB1B4 /* Main.storyboard */,
+				542CC3921F9E9BD900AAB1B4 /* Assets.xcassets */,
+				542CC3941F9E9BD900AAB1B4 /* LaunchScreen.storyboard */,
+				542CC3971F9E9BD900AAB1B4 /* Info.plist */,
+			);
+			path = "Mozilla Calculator";
+			sourceTree = "<group>";
+		};
+		542CC39F1F9E9BD900AAB1B4 /* Mozilla CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				542CC3A01F9E9BD900AAB1B4 /* Mozilla_CalculatorTests.swift */,
+				542CC3A21F9E9BD900AAB1B4 /* Info.plist */,
+			);
+			path = "Mozilla CalculatorTests";
+			sourceTree = "<group>";
+		};
+		542CC3AA1F9E9BD900AAB1B4 /* Mozilla CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				542CC3AB1F9E9BD900AAB1B4 /* Mozilla_CalculatorUITests.swift */,
+				542CC3AD1F9E9BD900AAB1B4 /* Info.plist */,
+			);
+			path = "Mozilla CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		542CC3871F9E9BD900AAB1B4 /* Mozilla Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542CC3B01F9E9BD900AAB1B4 /* Build configuration list for PBXNativeTarget "Mozilla Calculator" */;
+			buildPhases = (
+				542CC3841F9E9BD900AAB1B4 /* Sources */,
+				542CC3851F9E9BD900AAB1B4 /* Frameworks */,
+				542CC3861F9E9BD900AAB1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mozilla Calculator";
+			productName = "Mozilla Calculator";
+			productReference = 542CC3881F9E9BD900AAB1B4 /* Mozilla Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		542CC39B1F9E9BD900AAB1B4 /* Mozilla CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542CC3B31F9E9BD900AAB1B4 /* Build configuration list for PBXNativeTarget "Mozilla CalculatorTests" */;
+			buildPhases = (
+				542CC3981F9E9BD900AAB1B4 /* Sources */,
+				542CC3991F9E9BD900AAB1B4 /* Frameworks */,
+				542CC39A1F9E9BD900AAB1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542CC39E1F9E9BD900AAB1B4 /* PBXTargetDependency */,
+			);
+			name = "Mozilla CalculatorTests";
+			productName = "Mozilla CalculatorTests";
+			productReference = 542CC39C1F9E9BD900AAB1B4 /* Mozilla CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		542CC3A61F9E9BD900AAB1B4 /* Mozilla CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542CC3B61F9E9BD900AAB1B4 /* Build configuration list for PBXNativeTarget "Mozilla CalculatorUITests" */;
+			buildPhases = (
+				542CC3A31F9E9BD900AAB1B4 /* Sources */,
+				542CC3A41F9E9BD900AAB1B4 /* Frameworks */,
+				542CC3A51F9E9BD900AAB1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542CC3A91F9E9BD900AAB1B4 /* PBXTargetDependency */,
+			);
+			name = "Mozilla CalculatorUITests";
+			productName = "Mozilla CalculatorUITests";
+			productReference = 542CC3A71F9E9BD900AAB1B4 /* Mozilla CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		542CC3801F9E9BD900AAB1B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mozilla-IIT";
+				TargetAttributes = {
+					542CC3871F9E9BD900AAB1B4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					542CC39B1F9E9BD900AAB1B4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 542CC3871F9E9BD900AAB1B4;
+					};
+					542CC3A61F9E9BD900AAB1B4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 542CC3871F9E9BD900AAB1B4;
+					};
+				};
+			};
+			buildConfigurationList = 542CC3831F9E9BD900AAB1B4 /* Build configuration list for PBXProject "Mozilla Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 542CC37F1F9E9BD900AAB1B4;
+			productRefGroup = 542CC3891F9E9BD900AAB1B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				542CC3871F9E9BD900AAB1B4 /* Mozilla Calculator */,
+				542CC39B1F9E9BD900AAB1B4 /* Mozilla CalculatorTests */,
+				542CC3A61F9E9BD900AAB1B4 /* Mozilla CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		542CC3861F9E9BD900AAB1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542CC3961F9E9BD900AAB1B4 /* LaunchScreen.storyboard in Resources */,
+				542CC3931F9E9BD900AAB1B4 /* Assets.xcassets in Resources */,
+				542CC3911F9E9BD900AAB1B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542CC39A1F9E9BD900AAB1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542CC3A51F9E9BD900AAB1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		542CC3841F9E9BD900AAB1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542CC38E1F9E9BD900AAB1B4 /* ViewController.swift in Sources */,
+				542CC38C1F9E9BD900AAB1B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542CC3981F9E9BD900AAB1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542CC3A11F9E9BD900AAB1B4 /* Mozilla_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542CC3A31F9E9BD900AAB1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542CC3AC1F9E9BD900AAB1B4 /* Mozilla_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		542CC39E1F9E9BD900AAB1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542CC3871F9E9BD900AAB1B4 /* Mozilla Calculator */;
+			targetProxy = 542CC39D1F9E9BD900AAB1B4 /* PBXContainerItemProxy */;
+		};
+		542CC3A91F9E9BD900AAB1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542CC3871F9E9BD900AAB1B4 /* Mozilla Calculator */;
+			targetProxy = 542CC3A81F9E9BD900AAB1B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		542CC38F1F9E9BD900AAB1B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542CC3901F9E9BD900AAB1B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		542CC3941F9E9BD900AAB1B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542CC3951F9E9BD900AAB1B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		542CC3AE1F9E9BD900AAB1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		542CC3AF1F9E9BD900AAB1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		542CC3B11F9E9BD900AAB1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mozilla Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "calculator.IIT.Mozilla-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		542CC3B21F9E9BD900AAB1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mozilla Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "calculator.IIT.Mozilla-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		542CC3B41F9E9BD900AAB1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mozilla CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "calculator.IIT.Mozilla-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mozilla Calculator.app/Mozilla Calculator";
+			};
+			name = Debug;
+		};
+		542CC3B51F9E9BD900AAB1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mozilla CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "calculator.IIT.Mozilla-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mozilla Calculator.app/Mozilla Calculator";
+			};
+			name = Release;
+		};
+		542CC3B71F9E9BD900AAB1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Mozilla CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "calculator.IIT.Mozilla-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mozilla Calculator";
+			};
+			name = Debug;
+		};
+		542CC3B81F9E9BD900AAB1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Mozilla CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "calculator.IIT.Mozilla-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mozilla Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		542CC3831F9E9BD900AAB1B4 /* Build configuration list for PBXProject "Mozilla Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542CC3AE1F9E9BD900AAB1B4 /* Debug */,
+				542CC3AF1F9E9BD900AAB1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542CC3B01F9E9BD900AAB1B4 /* Build configuration list for PBXNativeTarget "Mozilla Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542CC3B11F9E9BD900AAB1B4 /* Debug */,
+				542CC3B21F9E9BD900AAB1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		542CC3B31F9E9BD900AAB1B4 /* Build configuration list for PBXNativeTarget "Mozilla CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542CC3B41F9E9BD900AAB1B4 /* Debug */,
+				542CC3B51F9E9BD900AAB1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		542CC3B61F9E9BD900AAB1B4 /* Build configuration list for PBXNativeTarget "Mozilla CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542CC3B71F9E9BD900AAB1B4 /* Debug */,
+				542CC3B81F9E9BD900AAB1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 542CC3801F9E9BD900AAB1B4 /* Project object */;
+}
