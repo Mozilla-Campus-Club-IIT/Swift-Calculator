@@ -1,4 +1,4 @@
-# Swift-Calculator
+![ColorTheme](https://raw.githubusercontent.com/Mozilla-Campus-Club-IIT/Swift-Calculator/master/Mockups/colorTheme.jpg)
 ## Swift Project for Hacktoberfest 2017
 **Disclaimer** 
 ```markdown
@@ -13,7 +13,6 @@ the SWIFT Language and to practice the best practices of iOS Development.~~
 ## Color Theme
 
 Suggested theme for the calculator. Click [here](https://coolors.co/242f79-ff625f-ff9566-cfcece-1a1a1a) to view the theme.
-![ColorTheme](https://raw.githubusercontent.com/Mozilla-Campus-Club-IIT/Swift-Calculator/master/Mockups/colorTheme.jpg)
 
 ## Screenshot
 
